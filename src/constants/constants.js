@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: "Add Users ",
+    description: "A simple Add Users App",
+      image: '/images/adduserlist.jpg',
+      tags: [ 'React' ],
+    source: 'https://add-users-appss.netlify.app',
+    visit: 'https://github.com/amarismariano/addUsers-app',
+    id: 0,
+  },
+  {
     title: "Expenses ",
     description: "A simple Expenses tracker app",
       image: '/images/income-and-expenses-spot.jpg',
       tags: [ 'React' ],
     source: 'https://expenses-app1.netlify.app',
     visit: 'https://github.com/amarismariano/expenses-app',
-    id: 0,
+    id: 1,
   },
   {
     title: "Bloc de Notas ",
@@ -15,7 +24,7 @@ export const projects = [
       tags: [ 'React' ],
     source: 'https://blockdenotas1.netlify.app',
     visit: 'https://github.com/amarismariano/BlocDeNotas',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Linkedin clone',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['React', 'JavaScript', "Material-UI", "Redux", "Firebase"],
     source: 'https://linkedinclone123a.netlify.app',
     visit: 'https://github.com/amarismariano/linkedinclone1',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Netflix clone',
@@ -33,7 +42,7 @@ export const projects = [
       tags: ['React', 'Redux', "Firebase", "Axios"],
     source: 'https://netflixclonesss.netlify.app',
     visit: 'https://github.com/amarismariano/netflix-clone',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Gmail clone',
@@ -42,7 +51,7 @@ export const projects = [
     tags: ['React', 'Material-UI', "Firebase", "Hooks"],
     source: 'https://gmail-amarisdev.netlify.app',
     visit: 'https://github.com/amarismariano/gmail-clone',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Slack clone',
@@ -51,7 +60,7 @@ export const projects = [
     tags: ['React', 'Material-UI', 'Redux', "Firebase", "React-SC"],
     source: 'https://slackappclone.netlify.app',
     visit: 'https://github.com/amarismariano/slackclone',
-    id: 5,
+    id: 6,
   }
 ];
 
