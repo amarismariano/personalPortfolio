@@ -45,9 +45,12 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About me & Education </SectionTitle>
-      <SectionText>My name is Mariano Amaris, im from Valledupar, Colombia.
-      Im a passionate Front-end developer, with some experience building and mantaining responsive websites.
-      Proficient in HTML, CSS, JavaScritp, plus modern libraries and frameworks. </SectionText>
+        <SectionText>
+        My name is Mariano Amaris, I am 24 years old and I am from Valledupar/Colombia.
+        I am a front end web developer, I am a self taught developer where most of my knowledge was acquired from pages like udemy or FreeCodeCamp + Linkedn courses and a lot of curiosity.
+        I am passionate about the development / design of pages / applications
+        I have a very fluent English since I learned from a young age in bilingual institutions B2!
+        </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 
       <>

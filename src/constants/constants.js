@@ -1,30 +1,39 @@
 export const projects = [
   {
+    title: "Loan App ",
+    description: "A simple application that allows us to evaluate how much money we can borrow with a fixed term plus monthly payments",
+      image: '/images/personal-loan.jpg',
+      tags: [ 'React' ],
+    source: 'https://cotizador-app-1.netlify.app',
+    visit: 'https://github.com/amarismariano/cotizador-app',
+    id: 0,
+  },
+  {
     title: "Add Users ",
-    description: "A simple Add Users App",
+    description: "A simple app that I used as a way to learn React hooks that allow us to add and remove users to a list.",
       image: '/images/adduserlist.jpg',
       tags: [ 'React' ],
     source: 'https://add-users-appss.netlify.app',
     visit: 'https://github.com/amarismariano/addUsers-app',
-    id: 0,
+    id: 1,
   },
   {
     title: "Expenses ",
-    description: "A simple Expenses tracker app",
+    description: "An application that helps us to have a history of our expenses throughout the month and tells us in which months we have spent the most",
       image: '/images/income-and-expenses-spot.jpg',
       tags: [ 'React' ],
     source: 'https://expenses-app1.netlify.app',
     visit: 'https://github.com/amarismariano/expenses-app',
-    id: 1,
+    id: 2,
   },
   {
     title: "Bloc de Notas ",
-    description: "",
+    description: "An application that allows us to create personal notes or to follow up on something we are doing, it was an application that I made when I finished my Udemy course",
       image: '/images/blockdenotas.jpg',
       tags: [ 'React' ],
     source: 'https://blockdenotas1.netlify.app',
     visit: 'https://github.com/amarismariano/BlocDeNotas',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Linkedin clone',
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['React', 'JavaScript', "Material-UI", "Redux", "Firebase"],
     source: 'https://linkedinclone123a.netlify.app',
     visit: 'https://github.com/amarismariano/linkedinclone1',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Netflix clone',
@@ -42,7 +51,7 @@ export const projects = [
       tags: ['React', 'Redux', "Firebase", "Axios"],
     source: 'https://netflixclonesss.netlify.app',
     visit: 'https://github.com/amarismariano/netflix-clone',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Gmail clone',
@@ -51,7 +60,7 @@ export const projects = [
     tags: ['React', 'Material-UI', "Firebase", "Hooks"],
     source: 'https://gmail-amarisdev.netlify.app',
     visit: 'https://github.com/amarismariano/gmail-clone',
-    id: 5,
+    id: 6,
   },
   {
     title: 'Slack clone',
@@ -60,16 +69,14 @@ export const projects = [
     tags: ['React', 'Material-UI', 'Redux', "Firebase", "React-SC"],
     source: 'https://slackappclone.netlify.app',
     visit: 'https://github.com/amarismariano/slackclone',
-    id: 6,
+    id: 7,
   }
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'I Finished Law School at Fundacion Universitaria del Area Andina', },
-  { year: 2020, text: 'I Finished A Full Stack Developer Course at Udemy', },
-  { year: 2020, text: 'I Finished A Web Responsive Design Course and Several Courses at FreeCodeCamp' },
-  { year: 2020, text: 'I Finished An Back-end Development Course at Udemy', },
-  { year: 2021, text: 'I Finished An Advanced React Course at Udemy' },
-  { year: 2021, text: 'I Finished An Advanced Node Course at Udemy' },
-  { year: 2021, text: 'I Finished a Databases Course at Udemy' }
+  { year: "", text: 'Law School at Fundacion Universitaria del Area Andina', },
+  { year: "", text: 'Full Stack Developer Course at Udemy', },
+  { year: "", text: 'Web Responsive Design Course and Several Courses at FreeCodeCamp' },
+  { year: "", text: 'Back-end Development Course at Udemy', },
+  { year: "", text: 'Advanced React Course at Udemy' }
 ];
