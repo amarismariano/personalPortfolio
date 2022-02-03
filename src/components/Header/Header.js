@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillFacebook, AiFillLinkedin } from 'react-icons/ai';
+import { SiNetlify } from "react-icons/si";
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons,  Span} from './HeaderStyles';
@@ -38,8 +39,8 @@ const Header = () =>  (
       <SocialIcons href="https://www.linkedin.com/in/mariano-amaris-597478202/">
           <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.facebook.com/profile.php?id=1029204336">
-          <AiFillFacebook size="3rem" />
+      <SocialIcons href="https://app.netlify.com/teams/amarismariano/sites">
+          <SiNetlify size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
