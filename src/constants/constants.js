@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Crypto-currency App v2",
+    title: "Crypto-currency App",
     description:
       "This application allows you to find out and see how much cryptos cost depending on the currency in which it is compared It was used with the cryptocompare API",
     image: "/images/exchange.gif",
