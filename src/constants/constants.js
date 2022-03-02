@@ -70,6 +70,16 @@ export const projects = [
     id: 6,
   },
   {
+    title: "Breaking-bad Quotes App",
+    description:
+      "This application is a simple practice of the breaking bad quuotes API, its really simple",
+    image: "/images/breakingbad.gif",
+    tags: ["React", "Hooks", "API", "Vite", "Styled Components"],
+    source: "https://breakingbaddapp1.netlify.app",
+    visit: "https://github.com/amarismariano/breakingbad",
+    id: 7,
+  },
+  {
     title: "Bloc de Notas ",
     description:
       "An application that allows us to create personal notes or to follow up on something we are doing, it was an application that I made when I finished my Udemy course",
@@ -77,7 +87,7 @@ export const projects = [
     tags: ["React", "Hooks"],
     source: "https://blockdenotas1.netlify.app",
     visit: "https://github.com/amarismariano/BlocDeNotas",
-    id: 7,
+    id: 8,
   },
   {
     title: "Linkedin clone",
@@ -86,7 +96,7 @@ export const projects = [
     tags: ["React", "JavaScript", "Material-UI", "Redux", "Firebase"],
     source: "https://linkedinclone123a.netlify.app",
     visit: "https://github.com/amarismariano/linkedinclone1",
-    id: 8,
+    id: 9,
   },
   {
     title: "Netflix clone",
@@ -95,7 +105,7 @@ export const projects = [
     tags: ["React", "Redux", "Firebase", "Axios"],
     source: "https://netflixclonesss.netlify.app",
     visit: "https://github.com/amarismariano/netflix-clone",
-    id: 9,
+    id: 10,
   },
   {
     title: "Gmail clone",
@@ -104,7 +114,7 @@ export const projects = [
     tags: ["React", "Material-UI", "Firebase", "Hooks"],
     source: "https://gmail-amarisdev.netlify.app",
     visit: "https://github.com/amarismariano/gmail-clone",
-    id: 10,
+    id: 11,
   },
   {
     title: "Slack clone",
@@ -113,7 +123,7 @@ export const projects = [
     tags: ["React", "Material-UI", "Redux", "Firebase", "React-SC"],
     source: "https://slackappclone.netlify.app",
     visit: "https://github.com/amarismariano/slackclone",
-    id: 11,
+    id: 12,
   },
 ];
 
